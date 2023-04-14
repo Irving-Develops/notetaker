@@ -27,7 +27,7 @@ export const Header = () => {
           ) : (
             <button
               className="btn-ghost rounded-btn btn"
-              onClick={() => void SignIn()}
+              onClick={() => void signIn()}
             ></button>
           )}
         </div>
